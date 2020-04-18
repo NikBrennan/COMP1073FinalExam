@@ -1,7 +1,7 @@
 // JavaScript Document
 
 let main = document.querySelector('main');        // queryselectorall  -> queryselector
-let submitButton = document.querySelector('input[type="submit"]');
+let submitButton = document.querySelector('input[type="button"]');      // input[type="submit"]  -> input[type="button"]
 let body = document.querySelector('body');            // documant -> document 
 
 submitButton.addEventListener('click', function(e) {    // clickityclick -> click
